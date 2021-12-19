@@ -1,0 +1,859 @@
+body 
+{
+margin:0;}
+
+.grid {
+display: grid;
+}
+
+/*1a/6a  laptop free shipping for purchase over 200dkk*/
+
+#promo-list {
+    text-align: center;
+    position: relative;
+    margin:0px;
+    background-color: burlywood;}
+
+   
+h3 {
+font-size: 15px;
+font-family: 'Source Sans 3', sans-serif;
+color:white;}
+
+#special-offer-text{
+list-style:none;}
+
+#special-offer-text-inside-star-icon{
+display:inline-block}
+
+
+#special-offer-text-inside-free-shipping-text{
+    display:inline-block}
+
+    #special-offer-text-inside-present-icon{
+        display:inline-block}
+
+
+/*1b/6b free shipping for purchase- mobile responsive*/
+
+@media all and (max-width:500px){
+
+    #promo-list {
+        
+        
+        margin:0;
+        background-color: burlywood;
+        width:100%
+      
+    }
+    
+.cntr-for-star-promo-text-and-present{
+
+    
+    margin-left:-40%;
+    
+}
+
+
+        
+}
+
+
+
+
+
+
+
+
+/*2a/6a nav+tea club first page*/
+
+#logo-mobile{
+    display:none;  
+}
+
+#icons-mobile{
+    display:none;  
+}
+
+.hamburger{
+    display:none;
+   
+}
+.main-cntr-nav-and-tea-club {
+height:800px;
+width:100%;
+background-image: url(Images/Home/tea-club.png);
+background-size: cover;
+background-repeat: none;}
+
+a {
+text-decoration: none;
+color:white;}
+
+
+.nabvar {
+
+width:100%;
+margin:auto;
+padding:20px 0;
+display:flex;
+align-items:center;
+justify-content:space-between;
+
+}
+
+#navigation-shop, #navigation-tea-sets, #navigation-tea-club, #navigation-articles, #navigation-about-us
+
+
+{
+
+list style-none;
+display:inline-block;
+ margin: 0 20px;
+
+text-transform: uppercase;
+font-family: 'Source Sans 3', sans-serif
+
+
+}
+
+
+.icons-logo-navbar {
+margin-right:0px;
+width:55%;
+display:flex;
+align-items:center;
+justify-content:space-between;
+
+
+
+}
+
+#icons {
+margin-right:80px;}
+
+
+/*tea club part*/
+
+.main-text-tea-club {
+
+   
+    width:100%;
+    margin-top: 5%;
+
+}
+
+
+
+.main-text-tea-club-2
+{
+
+text-align: center;
+margin: 0 auto;
+width:20%;
+
+
+
+
+}
+
+
+.header-find-your {
+
+width:100%;
+height:20%;
+text-align:left;}
+
+#Find-Your, #Check-out-limited-tea-seats {
+
+font-family: 'Source Sans 3', sans-serif;
+font-size:50px;
+color:white;
+margin-left: 15%;}
+
+.text-join-our-club {
+width:85%;
+
+margin-left:12%;
+margin-top:-5%;}
+
+#Join-our-club{
+
+font-family: 'Abel', sans-serif;
+font-size:25px;
+color:white;}
+
+.button-read-more {
+
+    font-family: 'Source Sans 3', sans-serif;
+    font-size:20px;
+    color:white;
+    border: 5px solid #4CAF50;
+    border-radius: 12px;
+    padding:5px 5px 5px 5px;
+    width:120px;
+    height:35px;
+    margin-left:30%;
+    margin-top:10%;}
+
+
+
+/*2b/6b nav+tea club page- mobile responsive*/
+   
+@media all and (max-width:500px){
+
+
+#logo-mobile{display:flex;} /*nav part*/
+
+#icons-mobile{display:flex;}
+
+.hamburger-stripes {
+width: 35px;
+height: 5px;
+background-color:white;
+margin: 6px 0;
+margin-left:50%; }
+
+#icons-mobile{margin-left:50%;}
+
+.navbar {
+    
+    display:none;
+
+}
+
+.laptop-homepage-logo, .laptop-homepage-icons{
+
+    display:none;
+}
+
+.responsive-logo-homepage {
+    margin-left:10%;
+}
+
+
+#navigation-shop,#navigation-tea-sets, #navigation-tea-club, #navigation-articles, #navigation-about-us{
+    display:none;}
+
+
+.main-cntr-nav-and-tea-club { /*background home page mobile version*/
+    height:800px;
+    width:100%;
+    background-image: url(Images/Home/tea-club-mobile.png);
+    background-size: 500px 900px;
+    background-repeat: none;}
+
+.main-text-tea-club { /*tea club part*/
+
+   
+    width:200%;
+    margin-top: 5%;
+    margin-left:50%;
+    
+}
+
+.main-text-tea-club-2
+{
+
+text-align: center;
+margin:-20px;
+width:20%;
+
+
+}
+
+
+.header-find-your {
+
+width:100%;
+height:20%;
+text-align:left;}
+
+#Find-Your {
+
+font-family: 'Source Sans 3', sans-serif;
+font-size:35px;
+color:white;
+margin-left: 15%;}
+
+.text-join-our-club {
+width:85%;
+
+margin-left:12%;
+margin-top:-5%;}
+
+#Join-our-club{
+
+font-family: 'Abel', sans-serif;
+font-size:19px;
+color:white;}
+
+
+.button-read-more {
+
+    font-family: 'Source Sans 3', sans-serif;
+    font-size:20px;
+    color:white;
+    border: 5px solid #4CAF50;
+    border-radius: 12px;
+    padding:5px 5px 5px 5px;
+    width:120px;
+    height:35px;
+    margin-left:20%;
+    margin-top:10%;}
+
+
+}
+
+
+
+
+a {
+    text-decoration: none;
+    color:white;}
+
+
+    
+
+/*3a/6a tea sets*/
+.main-cntr-tea-set {
+    height:700px;
+     width:100%;
+     background-image: url(Images/Home/tea-sets.png);
+     background-size: cover;
+     background-repeat: none;
+   
+ }
+
+
+
+
+ .cntr-for-header-button-picture {
+
+     display:flex;
+     margin-left:300px;
+     width:850px;
+     text-align:center;
+     justify-content:center;
+     margin-top:5%;
+     background-color:rgba(222, 184, 135, 0.603);
+     border-radius: 12px 12px 12px 12px ;
+ }
+
+
+
+
+ .button-read-more-2 {
+
+     font-family: 'Source Sans 3', sans-serif;
+     font-size:20px;
+     color:white;
+     border: 5px solid #4CAF50;
+     border-radius: 12px;
+     padding:5px 5px 5px 5px;
+     width:120px;
+     height:35px;
+     margin-left:40%;
+     margin-top:0px;
+ }
+
+/*3b/6b responsive tea sets*/
+
+@media all and (max-width:500px){
+
+ .main-cntr-tea-set {
+     height:800px;
+     width:100%;
+     background-image: url(Images/Home/tea-sets-mobile.png);
+     background-size: 1500px 700px;
+     background-repeat: none;}
+
+     .cntr-for-header-button-picture {
+
+         display:block;
+         margin-left:1%;
+         width:400px;
+         text-align:center;
+         justify-content:center;
+         margin-top:1%;
+     }
+
+     
+}
+
+
+ 
+/*4a/6a most popular*/
+
+    .main-cntr-for-most-popular{
+
+        background-color: seashell;
+        margin-top:0;
+    }
+
+    .cntr-for-star-and-reviews {
+
+        display:flex;
+        align-content: center;
+        text-align: center;
+      
+        width:200px;
+    }
+
+    .most-popular-flex-box {
+
+        display:flex;
+        margin-left:17%;
+        width:900px;
+      
+
+
+       
+    }
+
+#reviews-421, #reviews-435,  #reviews-525  {
+
+        font-size: 15px;
+        color:#d2cfcf;
+        font-family: 'Abel', sans-serif;
+        align-content: center;
+        text-align: center;
+        
+        
+        }
+        
+        #name-of-product-Pickwick-Tropical, #name-of-product-Pickwick-English, #name-of-product-Pickwick-Lemon{
+        
+        width:200px;
+        text-align: center;
+        font-size:14px;
+        margin-top:-10px;
+        font-family: 'Source Sans 3', sans-serif;
+        
+        
+        
+        }
+        
+        #price-26DKK, #price-36dkk, #price-20dkk{
+           
+            width:200px;
+            text-align: center;
+            font-size:20px;
+            margin-top:-10px;
+            font-family: 'Source Sans 3', sans-serif;
+        
+            }
+        
+            #icons-star3, #icons-star2, #icons-star1 {
+        
+                margin-top:12px;
+            }
+    
+
+            .grid2 {
+                padding:50px;
+            }
+            
+            
+            
+            
+            
+            
+            .add-to-bag {
+            
+                font-family: 'Source Sans 3', sans-serif;
+                font-size:20px;
+                color:white;
+                background-color: seagreen;
+                border-radius: 12px;
+                padding:5px 5px 5px 5px;
+                width:95%;
+                height:35px;
+                text-align:center;
+                margin-top:-10px;
+            }
+            
+            
+            #most-popular-text{
+                font-family: 'Source Sans 3', sans-serif;
+                text-transform: uppercase;
+                color:#d2cfcf;
+                text-align:center;
+            
+            }
+            
+            .cntr-for-most-popular-text{
+                display:none;
+            }
+
+
+            /*most popular responsive*/
+
+            @media all and (max-width:500px){
+
+
+                .most-popular-flex-box {
+
+                    display:block;
+                    margin-left:17%;
+                    width:900px;
+                   
+            
+            
+                   
+                }
+
+                .add-to-bag {
+            
+                    font-family: 'Source Sans 3', sans-serif;
+                    font-size:20px;
+                    color:white;
+                    background-color: seagreen;
+                    border-radius: 12px;
+                    padding:5px 5px 5px 5px;
+                    width:120px;
+                    height:35px;
+                    text-align:center;
+                    margin-top:-10px;
+                    margin-left:5%;
+                }
+                #most-popular-text{
+                    font-family: 'Source Sans 3', sans-serif;
+                    text-transform: uppercase;
+                    color:#d2cfcf;
+                    text-align:left;
+
+
+                }
+            }
+            
+    
+
+/*5a/6a article*/
+.main-cntr-article{
+
+        height:700px;
+        width:100%;
+        background-image: url(Images/Home/Guests.jpg);
+        background-size: cover;
+        background-repeat: none;
+     
+}
+        #impress-your-guests{
+
+            font-family: 'Source Sans 3', sans-serif;
+            font-size:50px;
+            color:white;
+            margin-top:-1%;
+            
+            }
+            .article-button{
+
+
+                font-family: 'Source Sans 3', sans-serif;
+                font-size:15px;
+                color:white;
+                background-color:#003200;
+                border-radius: 40px;
+                padding: 1px;
+                width:80px;
+                height:20px;
+                text-align: center; 
+            }
+            .main-cntr-article-button-header-read-more-button {
+
+                height:200px;
+                width:700px;
+                margin-left:35%;
+    
+                position:absolute;
+                margin-top:200px;
+            
+            
+            }
+
+            .article-read-more-button{
+
+                font-family: 'Source Sans 3', sans-serif;
+                font-size:20px;
+                color:white;
+                border: 5px solid white;
+                border-radius: 12px;
+                padding:5px 5px 5px 5px;
+                width:120px;
+                height:35px;
+                margin-left:40%;
+                margin-top:20%;
+                text-align:center;
+                
+                
+                }
+                
+
+        
+/*5b/6b responsive*/
+
+@media all and (max-width:500px){
+
+    .main-cntr-article{
+
+        height:700px;
+        width:100%;
+        background-image: url(Images/Home/Guests-mobile.jpg);
+        background-size:500px 700px;
+        background-repeat: none;
+     
+}
+  
+.main-cntr-article-button-header-read-more-button {
+
+    height:500px;
+    width:300px;
+    margin-left:25%;
+    
+    position:absolute;
+    margin-top:100px;
+
+
+}
+
+
+.article-read-more-button{
+
+    font-family: 'Source Sans 3', sans-serif;
+    font-size:20px;
+    color:white;
+    border: 5px solid white;
+    border-radius: 12px;
+    padding:5px 5px 5px 5px;
+    width:120px;
+    height:35px;
+    margin-left:20%;
+    margin-top:90%;
+    text-align:center;
+    
+    
+    }
+
+        
+}
+
+
+
+
+
+
+
+     /* 6a/6a footer*/
+
+.main-cntr-footer {
+
+    background-color: #003200;
+}
+
+#footer-details-address,#footer-details-contact-us, #footer-details-FAQ, #footer-details-stay-tuned {
+
+    font-family: 'Abel', sans-serif;
+    color:white;
+    font-size:14px;
+
+}
+
+.footer-cntr-for-all-details{
+display:flex;
+margin-left:20%;
+
+}
+
+.single-footer-box-with-details {
+    padding:25px;
+width:15%;
+
+}
+
+    /* 6b/6b footer responsive*/
+
+@media all and (max-width:500px){
+
+    .footer-cntr-for-all-details{
+        display:flex;
+        margin-left:0%;
+        
+        }  
+
+        .single-footer-box-with-details {
+            padding:18px;
+        width:15%;
+        
+        }
+
+        #footer-details {
+
+            font-family: 'Abel', sans-serif;
+            color:white;
+            font-size:10px;
+        
+        }
+
+        
+}
+
+
+/*tea sub page*/
+
+
+
+.main-text-subscription {
+    height:800px;
+    width:100%;
+    background-image: url(Images/Home/subscription.jpg);
+    background-size:cover;
+    background-repeat: none;}
+
+
+    .main-cntr-sub-info{
+
+
+width:280px;
+margin-left:22%;
+text-align: left;
+
+    }
+
+    #Pickwick-tea-club {
+
+        font-family: 'Source Sans 3', sans-serif;
+        font-size:50px;
+        color:rgb(44, 4, 4);
+        }
+
+
+        #Pickwick-You-can{
+
+            font-family: 'Abel', sans-serif;
+            font-size:25px;
+            color:rgb(44, 4, 4);}
+
+   
+.cntr-for-type-of-sub{
+    
+     margin-left:300px;
+     height:100px;
+     width:800px;
+     text-align:center;
+     justify-content:center;
+     
+     background-color:rgba(222, 184, 135, 0.603);
+     border-radius: 12px 12px 12px 12px ;
+     text-align:center;
+    }
+
+    #Choose-your {
+
+        font-family: 'Source Sans 3', sans-serif;
+        font-size:50px;
+        color:rgb(44, 4, 4);
+       }
+
+       .main-cntr-sub {
+        height:800px;
+         width:100%;
+         background-color: burlywood;
+         background-size: cover;
+         background-repeat: none;
+       
+     }
+
+
+
+/*tea set page*/
+
+
+.main-cntr-tea-sets {
+    height:700px;
+    width:100%;
+    background-image: url(Images/Home/present-tea-set.png);
+    background-size:cover;
+    background-repeat: none;}
+
+
+    .main-cntr-sub-info{
+
+
+width:280px;
+margin-left:22%;
+text-align: left;
+
+    }
+
+    #carefully-choosen {
+
+        font-family: 'Source Sans 3', sans-serif;
+        font-size:50px;
+        color: white;
+        }
+
+
+        #stop-cycling{
+
+            font-family: 'Abel', sans-serif;
+            font-size:25px;
+            color:white;}
+
+            #our-tea-sets{
+
+                font-family: 'Abel', sans-serif;
+                font-size:25px;
+                color:black;
+                text-align: justify;}
+
+                #carefully-choosen {
+
+                    font-family: 'Source Sans 3', sans-serif;
+                    font-size:50px;
+                    color:white;
+                    }
+    
+
+   
+.cntr-for-type-of-sub{
+    
+     margin-left:300px;
+     height:100px;
+     width:800px;
+     text-align:center;
+     justify-content:center;
+     
+     background-color:rgba(222, 184, 135, 0.603);
+     border-radius: 12px 12px 12px 12px ;
+     text-align:center;
+    }
+
+
+    
+   
+
+    #Choose-your-subscription {
+
+        font-family: 'Source Sans 3', sans-serif;
+        font-size:50px;
+        color:black;
+       }
+
+       .main-cntr-sub{
+        height:800px;
+         width:100%;
+         background-color: white;
+         background-size: cover;
+         background-repeat: none;
+       
+     }
+
+     .main-cntr-tea-set-with-text{
+        width:800px;
+        margin-left:20%;
+        align-content: center;
+     }
+
+
+     
