@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Find a car</title>
+    <link rel="stylesheet" href="car3.css">
+
+</head>
+<body>
+
+    <div class="menu">
+        <div class="menu-flex">
+<img src="car-icon.png" alt="car" width="15px" height="15px" id="car"> <div class="menu-text">Find a car</div>
+<img src="icon-log.png" alt="icon" width="15px" height="15px" id="log-in"> <div class="menu-text">Log in</div></div>
+
+
+
+    </div>
+
+   <div class="title">Find a car<div class="emoji-car">🚗</div> </div>
+<div class="grid-wrapper"> <!--beggining of grid-->
+
+   
+
+    <div class="column-1">
+        <div class="details">Number of persons:</div>
+            </div>
+
+<div class="column-2">
+                    <form action="/action_page.php">
+                     <select name="cars" id="Persons" onchange="getSelectedValue();">
+                        <option value="0">0</option>
+                        <option value="1">1</option>
+                         <option value="2">2</option>
+                         <option value="3">3</option>
+                         <option value="4">4</option>
+                         <option value="5">5</option>
+                         <option value="6">6</option>
+                         <option value="7">7</option>
+                            </select>
+                               </form>
+
+    </div>
+
+    <div class="column-1"> <div class="details-on-the-right-side">Number of suitcases:</div>
+        </div>
+
+    <div class="column-2">  <form action="/action_page.php">
+                                     
+        <select name="cars" id="Suticases">
+          <option value = "0"> 0 - only a bag</option>
+          <option value="1">1</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+          <option value="5">5</option>
+          <option value="6">6</option>
+          <option value="7">7</option>
+         </select>
+        </form></div>
+
+
+
+        <div class="column-1"> <span class="details">I pick it up:</span>
+        </div>
+
+<div class="column-2"> 
+    <input type="date" id="Pick-up" name="birthday">
+
+</div>
+
+        <div class="column-1"> <span class="details">I hand in:</span>
+        </div>
+
+        <div class="column-2"> 
+            <input type="date" id="Hand-in" name="birthday">
+        
+        </div>
+
+        <div class="column-2"> 
+        <div id="output-of-search-by-properties"> </div>
+    </div>
+
+        <div class="button-search"> 
+            <input id="button-search" type="submit" value="SEARCH">
+            
+        </div>
+
+       
+
+       
+
+      
+   
+</div> <!--end of the grid-->
+
+
+<div class="title">Search car by Name 🔍 </div><!--start of search bar by Name-->
+<div class="grid-wrapper">
+    
+  
+<div class="flex_container">
+    <form id="form" class="form">
+        <fieldset>
+            <legend>Search</legend>
+            <div class="formelements">
+                <label for="searchtext" class="label">Car name:</label>
+                <input type="text" class="inputfield" id="searchtext" required>
+            </div>
+           
+            <div class="formelements">
+                <button type="submit" id="search">Search</button>
+            </div>
+        </fieldset>
+    </form>
+</div>  
+
+
+<div class="column-2"> 
+
+   
+    <div id="output-search-car-by-name"> </div>
+    <div id="output-avaiable"></div>
+    
+   
+
+</div>
+
+       
+
+</div>
+
+
+<!--start of the calculator form-->
+
+
+
+<form id="form-calculator"></form>
+    
+<div class="title">Check the rental cost 💰 </div>
+
+
+<div class="grid-wrapper"> 
+          
+
+    
+        
+    
+
+      
+
+
+            <div class="column-1"> <span class="details">I pick it up:</span></div>
+                <div class="column-2"> 
+                      <input type="date" required id="arrivalfield" name="birthday">
+                        </div>
+    
+            <div class="column-1"> <span class="details">I hand in:</span></div>
+                <div class="column-2"> 
+                   <input type="date" required id="departurefield" name="birthday">
+                       </div>
+           
+           
+            
+            <button type="submit-calculator">Show result</button>
+    </form>
+
+
+        <div id="output-calculator"></div>
+
+       
+
+       
+
+      
+
+
+</div>
+
+
+
+
+
+<!--start of car description-->
+
+<div class="title">Jeep<div class="emoji-car">🚙</div> </div> <!--JEEp-->
+<div class="grid-wrapper"> 
+<div class="column-1"><img src="red_car.png"  onmouseover="action()" id="red-car"alt="" width="200px;"></div>
+
+<div class="column-2">
+    <p>Jeep </p>
+    <p>Persons: 5 </p>
+    <p>Suitcases: 0-6 </p>
+</div>
+
+<div class="column-1"> <input id="button-price" type="submit" value="PRICE: 450DKK per DAY"></div>
+
+<div class="column-2"><input id="button-rent" type="submit" value="RENT"></div>
+       
+
+</div>
+
+
+<div class="title">Mini Cooper<div class="emoji-car">🚕</div> </div> <!--mini copper-->
+<div class="grid-wrapper"> 
+<div class="column-1"><img src="yellow_car.png" alt="" width="200px;"></div>
+
+<div class="column-2">
+    <p>Mini Cooper </p>
+    <p>Persons: 2 </p>
+    <p>Suitcases: 0-2 </p>
+</div>
+
+<div class="column-1"> <input id="button-price" type="submit" value="PRICE: 150DKK per DAY"></div>
+
+<div class="column-2"><input id="button-rent" type="submit" value="RENT"></div>
+       
+
+</div>
+
+
+<div class="title">Drabant<div class="emoji-car">🚀</div> </div> <!--Drabant-->
+<div class="grid-wrapper"> 
+<div class="column-1"><img src="blue_car.png" alt="" width="200px;"></div>
+
+<div class="column-2">
+    <p>Drabant</p>
+    <p>Persons:4 </p>
+    <p>Suitcases: 0-5 </p>
+</div>
+
+<div class="column-1"> <input id="button-price" type="submit" value="PRICE: 80DKK per DAY"></div>
+
+<div class="column-2"><input id="button-rent" type="submit" value="RENT"></div>
+       
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script src="data.js"></script>
+<script src="javascript.js"></script>
+<script src="car-calculator.js"></script>
+<script src="data-car-calculator.js"></script>
+
+
+
+</body>
+</html>
