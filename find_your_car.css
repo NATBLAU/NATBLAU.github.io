@@ -1,0 +1,166 @@
+body {
+    background-color: rgb(48, 46, 44);
+}
+
+.menu {
+color: white;
+font-family: 'Roboto', sans-serif;
+display:flex;
+margin:20px;
+}
+
+.menu-flex {
+    display:flex;
+   margin: auto;
+   margin-top: 30px;
+    
+}
+
+.menu-text {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+/* main tile */
+
+.h1 {
+    color: rgb(48, 46, 44); ;
+
+}
+
+h2 {
+    font-size: 15px;
+
+}
+
+.grid-container {
+    display:grid;
+    grid-template-columns: 200px 200px;
+    margin:auto;
+  
+}
+
+.main-tile-of-grid{
+    background-color: white;
+    margin: auto;
+    font-family: 'Roboto', sans-serif;
+    color: rgb(48, 46, 44) ;
+    width:500px;
+    padding:10px;
+    border-radius: 10px;
+   
+   
+
+   
+}
+
+.grid-item-1, .grid-item-2  {
+ 
+    padding:10px;
+    
+   
+}
+
+.flex-container {
+    display:grid;
+    grid-template-columns: 200px 200px 280px 200px;
+   
+   
+    width:900px;
+    background-color: white;
+  
+    border-radius: 10px;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:25px;
+    margin-bottom:25px;
+
+
+
+}
+
+
+
+.flex-box-for-type-of-car-1b {
+ 
+    font-family: 'Roboto', sans-serif;
+    color: rgb(48, 46, 44) ;
+    padding:10px;
+    margin-top:25px;
+    margin-left:50px;
+   
+   
+    
+    
+}
+
+
+.flex-box-for-type-of-car-1a {
+ 
+   
+    margin-left:20px;
+   
+    
+    
+}
+
+
+/*js output*/
+
+#container-for-jeep, #container-for-trabant, #container-for-mini-cooper,
+#container-for-being-sorry{
+   
+    display:grid;
+    grid-template-columns: 200px 200px 280px 200px;
+   
+   
+    width:900px;
+    background-color: white;
+  
+    border-radius: 10px;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:25px;
+    margin-bottom:25px;
+    display:none;
+   
+
+}
+
+
+.space-for-text-in-container-for-being-sorry{
+font-family: 'Roboto', sans-serif;
+    color: rgb(48, 46, 44) ;
+    padding:10px;
+    margin-top:25px;
+    margin-left:50px;
+    color:red;
+    width:600px;
+    
+
+}
+
+
+
+
+
+
+.box-1, .box-2 {
+    background: white;
+    border-radius:10px;
+    font-family: 'Roboto', sans-serif;
+    padding: 20px;
+    width:400px;
+    margin:15px;
+  
+      
+   
+
+}
+
+
+
+.all-boxes{
+    display:flex;
+}
+

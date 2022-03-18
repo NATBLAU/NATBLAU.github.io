@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Find your car</title>
+
+    <link rel="stylesheet" href="find_your_car.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+
+</head>
+<body>
+
+    <div class="menu">
+        <div class="menu-flex">
+<img src="Photos/car-icon.png" alt="car" width="15px" height="15px" id="car"> <div class="menu-text">Find a car</div>
+<img src="Photos/icon-log.png" alt="icon" width="15px" height="15px" id="log-in"> <div class="menu-text">Log in</div></div>
+
+
+
+    </div>
+
+                                     <form id="formular" class="formular">
+<div class="main-tile-of-grid">
+    <div class="grid-container">
+        <div class="grid-item grid-item-1"> <h1>Find a car </h1></div>
+        <div class="grid-item grid-item-2"><h1>🚗</h1> </div>
+
+        <div class="grid-item grid-item-1">Number of people:</div>
+        <div class="grid-item grid-item-2">  
+            
+            <input type="number" value="1" id="persons" max="7" min="1" required>
+            </div>
+
+
+
+
+        <div class="grid-item grid-item-1">Number of suitcases:</div>
+        <div class="grid-item grid-item-2">
+
+            <select id="suitcases">
+                <option value="0">0 - only a bag</option>
+                <option value="1">1 suitcase</option>
+                <option value="2">2 suitcases</option>
+                <option value="3">3 suitcases</option>
+                <option value="4">4 suitcases</option>
+            </select>
+
+            </div>
+        <div class="grid-item grid-item-1">I pick it up:</div>
+        <div class="grid-item grid-item-2"> <input type="date" id="Pick-up" name="pick-up"></div>
+
+        <div class="grid-item grid-item-1">I hand in:</div>
+        <div class="grid-item grid-item-2"><input type="date" id="Hand-in" name="hand-in"> </div>
+       
+        <div class="grid-item grid-item-1"></div>
+        <div class="grid-item grid-item-2"><button onclick="myFunction()" type="button">Search</button></div>
+        
+  </div>
+</div>
+                                                                                           </form>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div id="container-for-jeep">
+    <div class="flex-box-for-type-of-car-1a"><img src="Photos/red_car.png" alt="Jeep" width="200px" height="150px"></div>
+    <div class="flex-box-for-type-of-car-1b"><h1 id="car-name-jeep">Jeep</h1></div>
+    <div class="flex-box-for-type-of-car-1b">Category: Big cars <br>
+        Persons: 6 <br>Suitcases:7
+    </div>
+  
+    <div class="flex-box-for-type-of-car-1b">Price:800 KR <p><input id="button-book-now-jeep" type="submit" value="BOOK NOW" onclick="JeepTransferData()"></div>
+
+</div>
+
+<div id="container-for-trabant">
+    <div class="flex-box-for-type-of-car-1a"><img src="Photos/blue_car.png" alt="mini" width="200px" height="150px"></div>
+    <div class="flex-box-for-type-of-car-1b"><h1>Trabant</h1></div>
+    <div class="flex-box-for-type-of-car-1b">Category: Medium cars <br>
+        Persons: 5 <br> Suitcases: 5
+    </div>
+   
+    <div class="flex-box-for-type-of-car-1b">Price: 600 KR <p><input id="button-book-now-trabant" type="submit" value="BOOK NOW"></div>
+   
+</div>
+
+<div id="container-for-mini-cooper">
+    <div class="flex-box-for-type-of-car-1a"><img src="Photos/yellow_car.png" alt="mini" width="200px" height="150px"></div>
+    <div class="flex-box-for-type-of-car-1b"><h1>Mini Cooper</h1></div>
+    <div class="flex-box-for-type-of-car-1b">Category: Small cars <br>
+        Persons: 2 <br> Suitcases: 3
+    </div>
+   
+    <div class="flex-box-for-type-of-car-1b">Price: 400 KR <p><input id="button-book-now-mini-cooper" type="submit" value="BOOK NOW"></div>
+   
+</div>
+
+<div id="container-for-being-sorry">
+
+    <div class="flex-box-for-type-of-car-1a"><img src="Photos/lama.png" alt="mini" width="200px" height="150px"></div>
+  
+    <div class="space-for-text-in-container-for-being-sorry"><h1>We are sorry, but currently we are not having such car 💔</h1>
+     
+    </div>
+    
+    
+</div>
+
+
+<script src="car_javascript.js"></script>
+<script src="second-page.js"></script>
+
+</div>
+</body>
+</html>
